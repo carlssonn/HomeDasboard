@@ -1,0 +1,24 @@
+{
+  "backend": { "host": "http://localhost", "port": 2999 },
+  "news": {
+    "key": "API_KEY_GOOGLE_NEWS"
+  },
+  "homeAssistant": {
+    "host": "http://192.168.1.YOUR_HOME_ASSISTANT",
+    "port": 8123,
+    "script": {
+      "route": "/api/services/script/turn_on",
+      "on": "script.turn_on_all_lights",
+      "off": "script.turn_off_all_lights"
+    },
+    "longLovedToken": "LONG_LIVED_TOKEN_HOME_ASSISTANT"
+  },
+  "sl": {
+    "endpoint": "http://api.sl.se/api2/realtimedeparturesV4.json?siteid=9260&timewindow=60&key=",
+    "key": "API_KEY_SL"
+  },
+  "openWeather": {
+    "endpoint": "http://api.openweathermap.org/data/2.5/weather?id=2679567&units=metric&APPID=",
+    "key": "API_KEY_OPEN_WEATHER"
+  }
+}

@@ -1,0 +1,55 @@
+.content {
+  margin-left: 20;
+  margin-top: 20;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.departures {
+  overflow: hidden;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.controlLights {
+  width: 100%;
+  display: flex;
+
+  top: 43%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.lightsOn {
+  width: 100%;
+  height: 240px;
+}
+
+.lightsOff {
+  width: 100%;
+  height: 240px;
+}
+
+.newsItem {
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+.leftPanel {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 320px;
+  font-size: 17px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+h1 {
+  overflow: hidden;
+  margin: 0px;
+}

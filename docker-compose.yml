@@ -1,0 +1,12 @@
+version: '3'
+services:
+  backend:
+    image: backend
+    build: ./backend
+    ports:
+      - '8080:2999'
+  web:
+    image: web
+    build: ./web
+    ports:
+      - '80:3000'

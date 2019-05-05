@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "backend app for home dashboard",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "newsapi": "^2.4.0",
+    "oauth": "^0.9.15",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlssonn/HomeDashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlssonn/HomeDashboard/issues"
+  },
+  "homepage": "https://github.com/carlssonn/HomeDashboard#readme"
+}

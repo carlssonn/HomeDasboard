@@ -1,0 +1,11 @@
+{
+  "backend": { "host": "http://localhost", "port": 2999 },
+  "frontend": { "host": "http://localhost", "port": 3000 },
+  "news": {
+    "route": "/News"
+  },
+  "homeAssistant": {
+    "route": "/HomeAssistant"
+  },
+  "openWeather": "/Weather"
+}
